@@ -1,0 +1,177 @@
+SECTION 6 DATA SUMMARY
+
+PRIMARY COMPARISONS
+method | outcome | n | median difference | CI low | CI high | Holm p
+distance | scalarized_cost | 94 | 27.543951 | 26.898311 | 27.995602 | 9.1433567e-16
+distance | distance_m | 94 | -0.015616473 | -0.41421356 | -0.0011365124 | 2.769448e-11
+distance | energy_Wh | 94 | -0.0025745449 | -0.0051915092 | 0.0019634954 | 0.00088376375
+distance | mission_time_s | 94 | -0.031232946 | -0.82842712 | -0.0023613204 | 2.769448e-11
+distance | mean_row_error_m | 94 | 0.3014546 | 0.28212133 | 0.31285376 | 9.1433567e-16
+distance | minimum_swept_body_clearance_m | 94 | 0 | 0 | 0 | 1
+energy | scalarized_cost | 94 | 16.209589 | 15.976766 | 16.677281 | 9.1433567e-16
+energy | distance_m | 94 | -0.0056468981 | -0.41421356 | 0 | 5.7997943e-06
+energy | energy_Wh | 94 | -0.0068287849 | -0.0110613 | -0.0026479648 | 2.769448e-11
+energy | mission_time_s | 94 | -0.011293796 | -0.82842712 | 0 | 5.7997943e-06
+energy | mean_row_error_m | 94 | 0.10724641 | 0.019361209 | 0.14990827 | 1.9691382e-11
+energy | minimum_swept_body_clearance_m | 94 | 0 | 0 | 0 | 1
+soil | scalarized_cost | 94 | -20.43983 | -20.929894 | -19.898821 | 9.1433567e-16
+soil | distance_m | 94 | 2.3388348 | 2.0710678 | 2.8994949 | 4.8645122e-15
+soil | energy_Wh | 94 | 0.038354716 | 0.032168975 | 0.047866518 | 4.898749e-15
+soil | mission_time_s | 94 | 4.6776695 | 4.1421356 | 5.7989899 | 4.8645122e-15
+soil | mean_row_error_m | 94 | 0.46973171 | 0.43918178 | 0.51158843 | 9.1433567e-16
+soil | minimum_swept_body_clearance_m | 94 | 0 | 0 | 0 | 1
+distance_clearance | scalarized_cost | 94 | 8.4405387 | 7.7737372 | 8.8476109 | 9.1433567e-16
+distance_clearance | distance_m | 94 | 1 | 1 | 1.2928446 | 4.8645122e-15
+distance_clearance | energy_Wh | 94 | 0.013844894 | 0.012863147 | 0.016207577 | 5.3385586e-15
+distance_clearance | mission_time_s | 94 | 2 | 2 | 2.5856892 | 4.8645122e-15
+distance_clearance | mean_row_error_m | 94 | 0.0014290316 | 0 | 0.0092114062 | 6.1949908e-05
+distance_clearance | minimum_swept_body_clearance_m | 94 | 0 | 0 | 0 | 4.6384923e-07
+
+DESCRIPTIVE ROBUSTNESS
+split | method | outcome | n | median difference | CI low | CI high | favorable %
+pilot | distance | scalarized_cost | 95 | 27.611372 | 26.761956 | 28.022749 | 0
+pilot | distance | distance_m | 95 | -0.0038796508 | -0.01922542 | 0 | 58.947368
+pilot | distance | energy_Wh | 95 | 0.00090980994 | -0.0054044012 | 0.0019634954 | 46.315789
+pilot | distance | mission_time_s | 95 | -0.0077593017 | -0.038450839 | 0 | 58.947368
+pilot | distance | mean_row_error_m | 95 | 0.29999 | 0.27524534 | 0.31028465 | 0
+pilot | distance | minimum_swept_body_clearance_m | 95 | 0 | 0 | 0 | 0
+evaluation | distance | scalarized_cost | 94 | 27.543951 | 26.916472 | 27.995602 | 0
+evaluation | distance | distance_m | 94 | -0.015616473 | -0.41421356 | -0.00085859475 | 64.893617
+evaluation | distance | energy_Wh | 94 | -0.0025745449 | -0.0051914828 | 0.0019634954 | 56.382979
+evaluation | distance | mission_time_s | 94 | -0.031232946 | -0.82842712 | -0.0022730248 | 64.893617
+evaluation | distance | mean_row_error_m | 94 | 0.3014546 | 0.28212133 | 0.31285376 | 0
+evaluation | distance | minimum_swept_body_clearance_m | 94 | 0 | 0 | 0 | 0
+pilot | energy | scalarized_cost | 95 | 16.219644 | 15.848527 | 16.750236 | 0
+pilot | energy | distance_m | 95 | 0 | -0.011052425 | 0 | 45.263158
+pilot | energy | energy_Wh | 95 | -0.0019634954 | -0.0078105326 | -5.8095641e-05 | 61.052632
+pilot | energy | mission_time_s | 95 | 0 | -0.023456459 | 0 | 45.263158
+pilot | energy | mean_row_error_m | 95 | 0.11001747 | 0.018807992 | 0.15175299 | 0
+pilot | energy | minimum_swept_body_clearance_m | 95 | 0 | 0 | 0 | 0
+evaluation | energy | scalarized_cost | 94 | 16.209589 | 15.971345 | 16.697653 | 0
+evaluation | energy | distance_m | 94 | -0.0056468981 | -0.41421356 | 0 | 52.12766
+evaluation | energy | energy_Wh | 94 | -0.0068287849 | -0.01105471 | -0.0026479648 | 68.085106
+evaluation | energy | mission_time_s | 94 | -0.011293796 | -0.82842712 | 0 | 52.12766
+evaluation | energy | mean_row_error_m | 94 | 0.10724641 | 0.019361209 | 0.15287092 | 0
+evaluation | energy | minimum_swept_body_clearance_m | 94 | 0 | 0 | 0 | 0
+pilot | soil | scalarized_cost | 95 | -20.312072 | -21.112535 | -19.766325 | 100
+pilot | soil | distance_m | 95 | 2.4852814 | 2.0710678 | 3.6066017 | 1.0526316
+pilot | soil | energy_Wh | 95 | 0.042238257 | 0.033162177 | 0.059124871 | 1.0526316
+pilot | soil | mission_time_s | 95 | 4.9705627 | 4.1421356 | 7.2132034 | 1.0526316
+pilot | soil | mean_row_error_m | 95 | 0.48788882 | 0.4439321 | 0.55334632 | 0
+pilot | soil | minimum_swept_body_clearance_m | 95 | 0 | 0 | 0 | 1.0526316
+evaluation | soil | scalarized_cost | 94 | -20.43983 | -20.929894 | -19.898821 | 100
+evaluation | soil | distance_m | 94 | 2.3388348 | 2.0710678 | 2.8994949 | 2.1276596
+evaluation | soil | energy_Wh | 94 | 0.038354716 | 0.03185318 | 0.047770314 | 3.1914894
+evaluation | soil | mission_time_s | 94 | 4.6776695 | 4.1421356 | 5.7989899 | 2.1276596
+evaluation | soil | mean_row_error_m | 94 | 0.46973171 | 0.44246308 | 0.51750609 | 0
+evaluation | soil | minimum_swept_body_clearance_m | 94 | 0 | 0 | 0 | 0
+pilot | distance_clearance | scalarized_cost | 95 | 8.621405 | 8.1436177 | 9.004437 | 0
+pilot | distance_clearance | distance_m | 95 | 1.0000846 | 1 | 1.2937839 | 6.3157895
+pilot | distance_clearance | energy_Wh | 95 | 0.013844894 | 0.013190396 | 0.017261262 | 7.3684211
+pilot | distance_clearance | mission_time_s | 95 | 2.0001692 | 2 | 2.5875679 | 6.3157895
+pilot | distance_clearance | mean_row_error_m | 95 | 0.012007257 | 0.002977391 | 0.029239083 | 20
+pilot | distance_clearance | minimum_swept_body_clearance_m | 95 | 0 | 0 | 0 | 37.894737
+evaluation | distance_clearance | scalarized_cost | 94 | 8.4405387 | 7.788828 | 8.8476109 | 0
+evaluation | distance_clearance | distance_m | 94 | 1 | 1 | 1.2928446 | 3.1914894
+evaluation | distance_clearance | energy_Wh | 94 | 0.013844894 | 0.012535897 | 0.016207577 | 4.2553191
+evaluation | distance_clearance | mission_time_s | 94 | 2 | 2 | 2.5857864 | 3.1914894
+evaluation | distance_clearance | mean_row_error_m | 94 | 0.0014290316 | 0 | 0.0088847983 | 26.595745
+evaluation | distance_clearance | minimum_swept_body_clearance_m | 94 | 0 | 0 | 0 | 36.170213
+
+COMPLETION STATUS COUNTS
+{
+  "evaluation": {
+    "distance": {
+      "success": 94,
+      "no_path": 2
+    },
+    "energy": {
+      "success": 94,
+      "no_path": 2
+    },
+    "soil": {
+      "success": 94,
+      "no_path": 2
+    },
+    "distance_clearance": {
+      "success": 94,
+      "no_path": 2
+    },
+    "full": {
+      "success": 94,
+      "no_path": 2
+    }
+  },
+  "pilot": {
+    "distance": {
+      "success": 95,
+      "no_path": 1
+    },
+    "energy": {
+      "success": 95,
+      "no_path": 1
+    },
+    "soil": {
+      "success": 95,
+      "no_path": 1
+    },
+    "distance_clearance": {
+      "success": 95,
+      "no_path": 1
+    },
+    "full": {
+      "success": 95,
+      "no_path": 1
+    }
+  }
+}
+
+COMPUTATIONAL SUMMARY
+Timing and search-effort summaries are conditional on success.
+Quartiles use numpy's linear percentile method.
+distance: attempts=96, successful=94
+  search_ms: n=94, median=510.5096, Q1=401.80557, Q3=647.59922
+  planning_ms: n=94, median=510.8255, Q1=402.1265, Q3=647.99303
+  preprocessing_ms: n=94, median=0.2781, Q1=0.2586, Q3=0.302425
+  verification_ms: n=94, median=6.14375, Q1=5.79595, Q3=6.787575
+  expanded_states: n=94, median=911, Q1=610.5, Q3=1281.5
+  queue_pops: n=94, median=914, Q1=613.5, Q3=1284.5
+  stale_entries: n=94, median=0, Q1=0, Q3=0
+distance_clearance: attempts=96, successful=94
+  search_ms: n=94, median=314.4082, Q1=289.2152, Q3=353.12815
+  planning_ms: n=94, median=314.8083, Q1=289.53535, Q3=353.52048
+  preprocessing_ms: n=94, median=0.0010499989, Q1=0.0009999967, Q3=0.001299999
+  verification_ms: n=94, median=6.49295, Q1=5.898775, Q3=7.15685
+  expanded_states: n=94, median=1842, Q1=1618, Q3=2050.25
+  queue_pops: n=94, median=1845, Q1=1621, Q3=2053.25
+  stale_entries: n=94, median=0, Q1=0, Q3=0
+energy: attempts=96, successful=94
+  search_ms: n=94, median=1481.4227, Q1=1281.4819, Q3=1792.1212
+  planning_ms: n=94, median=1482.0916, Q1=1282.1075, Q3=1792.8103
+  preprocessing_ms: n=94, median=0.0010000003, Q1=0.00090000322, Q3=0.001200001
+  verification_ms: n=94, median=6.1963, Q1=5.823825, Q3=6.8292
+  expanded_states: n=94, median=6285.5, Q1=5381.75, Q3=7459.75
+  queue_pops: n=94, median=6439.5, Q1=5408.25, Q3=7566
+  stale_entries: n=94, median=0, Q1=0, Q3=211.25
+full: attempts=96, successful=94
+  search_ms: n=94, median=703.6617, Q1=604.66543, Q3=837.6873
+  planning_ms: n=94, median=704.1739, Q1=605.30275, Q3=838.24498
+  preprocessing_ms: n=94, median=0.0010000003, Q1=0.00089999958, Q3=0.0011000011
+  verification_ms: n=94, median=6.28315, Q1=5.808775, Q3=6.9589
+  expanded_states: n=94, median=4067, Q1=3640.25, Q3=4719
+  queue_pops: n=94, median=4113.5, Q1=3692.25, Q3=4764.5
+  stale_entries: n=94, median=35, Q1=26, Q3=45.75
+soil: attempts=96, successful=94
+  search_ms: n=94, median=1132.3656, Q1=930.21315, Q3=1406.0812
+  planning_ms: n=94, median=1133.1003, Q1=931.03318, Q3=1406.8197
+  preprocessing_ms: n=94, median=0.0010000003, Q1=0.00089999958, Q3=0.0011000011
+  verification_ms: n=94, median=6.91625, Q1=5.958325, Q3=9.949575
+  expanded_states: n=94, median=6587, Q1=5478.5, Q3=7995
+  queue_pops: n=94, median=6590, Q1=5481.5, Q3=7998
+  stale_entries: n=94, median=0, Q1=0, Q3=0
+
+EVALUATION CLEARANCE SIGN COUNTS
+distance: n=94, greater=0, equal=94, lower=0
+energy: n=94, greater=0, equal=94, lower=0
+soil: n=94, greater=0, equal=94, lower=0
+distance_clearance: n=94, greater=34, equal=60, lower=0

@@ -1,0 +1,139 @@
+{
+  "revision": "release-inventory-v6",
+  "created_utc": "2026-10-25T20:56:10.651266+00:00",
+  "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.22000-SP0",
+  "scope": "Inventory of current analysis, verification, source, and figure files. Hashes record current contents; they do not independently certify scientific validity, dependency completeness, or agreement with the earlier frozen development manifest.",
+  "files": [
+    {
+      "path": "ANALYSIS_PLAN_v6.md",
+      "bytes": 4278,
+      "sha256": "c9e42cb9b981d9e4e029f19c8df1f9034e855b468267143f5018e006aa2bc4a4"
+    },
+    {
+      "path": "analysis_plan_checksum_v6.json",
+      "bytes": 187,
+      "sha256": "54533c422e5d63d2b42f340a7b4b040ed52e3e19e033aa1a65550ff0686da575"
+    },
+    {
+      "path": "development_manifest_v6.json",
+      "bytes": 2094,
+      "sha256": "fc4dfce643818cf77ccfc1c92c2a37d231696b6c4b44825123f9365ae817d5c1"
+    },
+    {
+      "path": "evaluation_records_v6.jsonl",
+      "bytes": 702014,
+      "sha256": "53f3f5bf91b3037315e6d8efdd96700ccf8488029401c3aa46e58f6c1d28d52d"
+    },
+    {
+      "path": "pilot_records_v6.jsonl",
+      "bytes": 697701,
+      "sha256": "b5ebead0aed0fa844591a7357a50b96dc25df27b320742be9142ea73303e73e3"
+    },
+    {
+      "path": "evaluation_summary_v6.json",
+      "bytes": 307930,
+      "sha256": "b2a39fad22af9e4e765f91e11270ce115d89161b21ea920acd9c1b93c43e9c8a"
+    },
+    {
+      "path": "pilot_summary_v6.json",
+      "bytes": 305369,
+      "sha256": "b6e9dc8a28caee9dead84fc3d3594caf909d08268cd2f5df4cd5346277d7ddb2"
+    },
+    {
+      "path": "independent_verifier_v6.py",
+      "bytes": 11030,
+      "sha256": "34e8bc3e8e9da25b7c150fd8a00ac5beaf1b1382fecc5113be9b83c11f3b9c5c"
+    },
+    {
+      "path": "independent_verification_v6.json",
+      "bytes": 908,
+      "sha256": "a6e96119d176fb14941c4566fbe1456bbda92da5335d7acb330604eba002e726"
+    },
+    {
+      "path": "analysis_v6.py",
+      "bytes": 6798,
+      "sha256": "da9c9073523bb567d9fc5b5a1749b1b6b0c1538a2ab38beba84c0c076ce9011a"
+    },
+    {
+      "path": "analysis_v6_results.json",
+      "bytes": 40159,
+      "sha256": "e231ff8babf5ae4306969da8a0d4befb4ade89e0c0813ca3d645df979f2dddca"
+    },
+    {
+      "path": "analysis_v6_primary.csv",
+      "bytes": 5087,
+      "sha256": "9c7bae71f646d8fdf0e9eeb1cf58f122ce8c42f38815ab1ed47287f8e6c1a1e6"
+    },
+    {
+      "path": "analysis_v6_robustness.csv",
+      "bytes": 8757,
+      "sha256": "7335904ff5638444d51375824e2e1f3e98a145e105a849473fb4b866eff8fccc"
+    },
+    {
+      "path": "make_results_report_v6.py",
+      "bytes": 4782,
+      "sha256": "ec91dcf09ab0c086675dc0b620f90e62f4b8853e0ed4e9e755dd5abac133ff1f"
+    },
+    {
+      "path": "RESULTS_v6.md",
+      "bytes": 8875,
+      "sha256": "88959b0455a8683af3b47a34c425d1314703b790d286e9e766d5b67564571cf3"
+    },
+    {
+      "path": "make_figures_v6.py",
+      "bytes": 4697,
+      "sha256": "6ce6077a8199ff43def89ae9aaf967d39ad74eef64175b04f5f9529c6f69a7c5"
+    },
+    {
+      "path": "make_manifest_v6.py",
+      "bytes": 2251,
+      "sha256": "1bf4f50d67c92946956a4115a1dc6826722d0acfa7a76d5a9c8d3f09f96b97fd"
+    },
+    {
+      "path": "requirements_v6.txt",
+      "bytes": 274,
+      "sha256": "359314728ea324cda694021174200ee3d21d7eed7445e527b1569ef602b9dd5f"
+    },
+    {
+      "path": "agri_evaluation_v6.py",
+      "bytes": 5896,
+      "sha256": "0c6e1c313f847631e09e4411fc0c12b64c610107e7db61e866226259e77a8760"
+    },
+    {
+      "path": "agri_pilot_v6.py",
+      "bytes": 5719,
+      "sha256": "27b7009f0c0d492285ebbf7393dc67dd5640a8b6a40dcc3846d24f329f59b242"
+    },
+    {
+      "path": "agri_planner_v4.py",
+      "bytes": 16335,
+      "sha256": "d845887826a9162cd8b5f3054c5bccb86ca494d4be16b5b085ff7f74b8b53032"
+    },
+    {
+      "path": "agri_generator_v2.py",
+      "bytes": 8485,
+      "sha256": "c7aed022ffe488189c13b603f6ff3474c0f4b3080ca7284fcad5777875258c9e"
+    },
+    {
+      "path": "agri_generator_v3.py",
+      "bytes": 8682,
+      "sha256": "64ce5c8987a0a62fdb3feadd8af48f2bfa3c4be35eb3d8391dae628404b69a22"
+    },
+    {
+      "path": "figures/figure_primary_forest_v6.png",
+      "bytes": 218855,
+      "sha256": "6481dcfe927b9a7b346042b6aa05f398a70c5a0b2ab4a1ff996abfd9d492b361"
+    },
+    {
+      "path": "figures/figure_robustness_medians_v6.png",
+      "bytes": 197042,
+      "sha256": "0cb2942e15c9bf54d49fef947860b8140a3e494fa6dfad00da7d2aaff58636df"
+    },
+    {
+      "path": "figures/figure_computational_cost_v6.png",
+      "bytes": 99607,
+      "sha256": "9ebdd9bb315116b0671206499ddb81efdbae89a70f81ed2ab795c31f025b2e82"
+    }
+  ]
+}

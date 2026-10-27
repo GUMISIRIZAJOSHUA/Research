@@ -1,0 +1,24 @@
+{
+  "revision": "independent-verifier-v6",
+  "analysis_plan_sha256": "c9e42cb9b981d9e4e029f19c8df1f9034e855b468267143f5018e006aa2bc4a4",
+  "successful_routes_checked": 945,
+  "routes_passed": 945,
+  "routes_failed": 0,
+  "max_absolute_scalarized_cost_difference": 2.1316282072803006e-14,
+  "sampling_step_m": 0.02,
+  "tolerances": {
+    "distance_m": 1e-08,
+    "energy_Wh": 1e-08,
+    "mission_time_s": 1e-08,
+    "row_integral_m2": 1e-08,
+    "mean_row_error_m": 1e-08,
+    "minimum_swept_body_clearance_m": 0.0002,
+    "scalarized_cost": 1e-08
+  },
+  "failures": [],
+  "limitations": [
+    "Routes were regenerated with the frozen planner because route states were not stored in v6 records.",
+    "Clearance uses independent dense sampling and is approximate; its tolerance is therefore larger.",
+    "This verifies the declared simulation model, not physical-field behavior."
+  ]
+}
